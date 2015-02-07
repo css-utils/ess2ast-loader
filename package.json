@@ -1,0 +1,28 @@
+{
+  "name": "ess2ast-loader",
+  "version": "0.1.0",
+  "description": "webpack loader for ess",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/css-utils/ess2ast-loader.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/css-utils/ess2ast-loader/issues"
+  },
+  "homepage": "https://github.com/css-utils/ess2ast-loader",
+  "dependencies": {
+    "loader-utils": "^0.2.6"
+  },
+  "peerDependencies": {
+    "ess-compiler": "^0.1.0"
+  }
+}
