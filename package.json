@@ -23,6 +23,6 @@
     "loader-utils": "^0.2.6"
   },
   "peerDependencies": {
-    "ess-compiler": "^0.1.0"
+    "ess-compiler": "*"
   }
 }
