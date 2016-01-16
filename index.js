@@ -10,7 +10,7 @@ module.exports = function(source, path) {
 
   var filename = utils.getRemainingRequest(this).replace(/^!/, "");
 
-  var opts = loaderUtils.parseQuery(this.query);
+  var opts = utils.parseQuery(this.query);
   opts.filename = filename;
   return compiler(source, opts);
 };
